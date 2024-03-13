@@ -1,9 +1,10 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
 
-import StackRoutes from "../../routes/stack.routes";
-import TabRoutes from "../../routes/tab.routes";
-import DrawerRoutes from "../../routes/drawer.routes";
+import StackRoutes from "../../routes/stack.routes.jsx";
+import TabRoutes from "../../routes/tab.routes.jsx";
+import DrawerRoutes from "../../routes/drawer.routes.jsx";
+
 
 export default function Routes() {
   return (
