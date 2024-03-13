@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <View style={styles.container}>
       <Title title={"Home"} />
-     
     </View>
   );
 }
